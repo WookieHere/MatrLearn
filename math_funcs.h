@@ -1,0 +1,9 @@
+//
+// Created by Luke Nasby on 2/7/22.
+//
+
+#ifndef DEEP_LEARNING_LIBRARY_MATH_FUNCS_H
+#define DEEP_LEARNING_LIBRARY_MATH_FUNCS_H
+
+
+#endif //DEEP_LEARNING_LIBRARY_MATH_FUNCS_H
