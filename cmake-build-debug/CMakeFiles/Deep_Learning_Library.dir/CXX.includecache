@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Connection.cpp
+Layer.h
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Layer.h
+
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Layer.cpp
+Layer.h
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Layer.h
+
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Layer.h
+stdio.h
+-
+stdlib.h
+-
+math_funcs.h
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/math_funcs.h
+
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/math_funcs.h
+
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/testing_driver.cpp
+Layer.h
+/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Layer.h
+
