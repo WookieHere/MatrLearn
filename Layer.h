@@ -27,10 +27,17 @@ private:
     float(*_connection_func)(float); //function pointer
     int _num_connections;
     Node** _connected_Nodes;
+    /*
+     *     ptr_to_node
+     *     ^
+     * -> |^| | |...
+     *
+     */
 
 public:
-    Connection(float(*func_ptr)(float)) ;
+    Connection(float(*func_ptr)(float));
     ~Connection();
+    Node* operator[](const int rhs);
     void addNodeConnection(Node*);
 };
 
@@ -42,8 +49,9 @@ enum Layer_Connection_Type {Constant = 0, Linear_offset = 1, Exponential = 2};
 class Layer
 {
 private:
-    int _size;
+    int _size = 0;
     float* _learn_gradient;
+    //that is an array of floats (think tensors)
     Node* _Nodes;
     Connection** _Connections;
     Layer_Connection_Configuration _config;
@@ -54,7 +62,10 @@ public:
     Layer(Layer_Connection_Configuration, Layer_Connection_Type);
     //constructor with configuration
     ~Layer();
+    void layerInit();
+    //called after config is set
     int getSize();
+    Node* operator[](const int rhs);
     //returns size (length) of list
 };
 

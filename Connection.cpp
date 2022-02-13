@@ -21,3 +21,8 @@ void Connection::addNodeConnection(Node* new_connection)
     this->_connected_Nodes[this->_num_connections] = new_connection;
     this->_num_connections++;
 }
+
+Node* Connection::operator[](const int rhs)
+{
+    return this->_connected_Nodes[rhs];
+}

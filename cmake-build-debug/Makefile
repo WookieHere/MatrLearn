@@ -177,6 +177,30 @@ Layer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/Layer.cpp.s
 .PHONY : Layer.cpp.s
 
+Network.o: Network.cpp.o
+.PHONY : Network.o
+
+# target to build an object file
+Network.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/Network.cpp.o
+.PHONY : Network.cpp.o
+
+Network.i: Network.cpp.i
+.PHONY : Network.i
+
+# target to preprocess a source file
+Network.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/Network.cpp.i
+.PHONY : Network.cpp.i
+
+Network.s: Network.cpp.s
+.PHONY : Network.s
+
+# target to generate assembly for a file
+Network.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/Network.cpp.s
+.PHONY : Network.cpp.s
+
 testing_driver.o: testing_driver.cpp.o
 .PHONY : testing_driver.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... Layer.o"
 	@echo "... Layer.i"
 	@echo "... Layer.s"
+	@echo "... Network.o"
+	@echo "... Network.i"
+	@echo "... Network.s"
 	@echo "... testing_driver.o"
 	@echo "... testing_driver.i"
 	@echo "... testing_driver.s"

@@ -89,6 +89,12 @@
 		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Layer.h">
 			<Option target="Deep_Learning_Library"/>
 		</Unit>
+		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Network.cpp">
+			<Option target="Deep_Learning_Library"/>
+		</Unit>
+		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Network.h">
+			<Option target="Deep_Learning_Library"/>
+		</Unit>
 		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/math_funcs.h">
 			<Option target="Deep_Learning_Library"/>
 		</Unit>
