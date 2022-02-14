@@ -54,6 +54,7 @@ private:
     //that is an array of floats (think tensors)
     Node* _Nodes;
     Connection** _Connections;
+    //2D array of connections
     Layer_Connection_Configuration _config;
     Layer_Connection_Type _type;
 

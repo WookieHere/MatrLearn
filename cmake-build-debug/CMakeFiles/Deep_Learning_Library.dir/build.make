@@ -118,12 +118,40 @@ CMakeFiles/Deep_Learning_Library.dir/Network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Deep_Learning_Library.dir/Network.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Network.cpp -o CMakeFiles/Deep_Learning_Library.dir/Network.cpp.s
 
+CMakeFiles/Deep_Learning_Library.dir/list.cpp.o: CMakeFiles/Deep_Learning_Library.dir/flags.make
+CMakeFiles/Deep_Learning_Library.dir/list.cpp.o: ../list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Deep_Learning_Library.dir/list.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Deep_Learning_Library.dir/list.cpp.o -c /Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list.cpp
+
+CMakeFiles/Deep_Learning_Library.dir/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Deep_Learning_Library.dir/list.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list.cpp > CMakeFiles/Deep_Learning_Library.dir/list.cpp.i
+
+CMakeFiles/Deep_Learning_Library.dir/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Deep_Learning_Library.dir/list.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list.cpp -o CMakeFiles/Deep_Learning_Library.dir/list.cpp.s
+
+CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o: CMakeFiles/Deep_Learning_Library.dir/flags.make
+CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o: ../list_unit_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o -c /Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list_unit_tests.cpp
+
+CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list_unit_tests.cpp > CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.i
+
+CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list_unit_tests.cpp -o CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.s
+
 # Object files for target Deep_Learning_Library
 Deep_Learning_Library_OBJECTS = \
 "CMakeFiles/Deep_Learning_Library.dir/testing_driver.cpp.o" \
 "CMakeFiles/Deep_Learning_Library.dir/Layer.cpp.o" \
 "CMakeFiles/Deep_Learning_Library.dir/Connection.cpp.o" \
-"CMakeFiles/Deep_Learning_Library.dir/Network.cpp.o"
+"CMakeFiles/Deep_Learning_Library.dir/Network.cpp.o" \
+"CMakeFiles/Deep_Learning_Library.dir/list.cpp.o" \
+"CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o"
 
 # External object files for target Deep_Learning_Library
 Deep_Learning_Library_EXTERNAL_OBJECTS =
@@ -132,9 +160,11 @@ Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/testing_driver.cpp.o
 Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/Layer.cpp.o
 Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/Connection.cpp.o
 Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/Network.cpp.o
+Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/list.cpp.o
+Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o
 Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/build.make
 Deep_Learning_Library: CMakeFiles/Deep_Learning_Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Deep_Learning_Library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Deep_Learning_Library"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Deep_Learning_Library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

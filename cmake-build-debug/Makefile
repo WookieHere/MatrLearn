@@ -201,6 +201,54 @@ Network.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/Network.cpp.s
 .PHONY : Network.cpp.s
 
+list.o: list.cpp.o
+.PHONY : list.o
+
+# target to build an object file
+list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/list.cpp.o
+.PHONY : list.cpp.o
+
+list.i: list.cpp.i
+.PHONY : list.i
+
+# target to preprocess a source file
+list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/list.cpp.i
+.PHONY : list.cpp.i
+
+list.s: list.cpp.s
+.PHONY : list.s
+
+# target to generate assembly for a file
+list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/list.cpp.s
+.PHONY : list.cpp.s
+
+list_unit_tests.o: list_unit_tests.cpp.o
+.PHONY : list_unit_tests.o
+
+# target to build an object file
+list_unit_tests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o
+.PHONY : list_unit_tests.cpp.o
+
+list_unit_tests.i: list_unit_tests.cpp.i
+.PHONY : list_unit_tests.i
+
+# target to preprocess a source file
+list_unit_tests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.i
+.PHONY : list_unit_tests.cpp.i
+
+list_unit_tests.s: list_unit_tests.cpp.s
+.PHONY : list_unit_tests.s
+
+# target to generate assembly for a file
+list_unit_tests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Deep_Learning_Library.dir/build.make CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.s
+.PHONY : list_unit_tests.cpp.s
+
 testing_driver.o: testing_driver.cpp.o
 .PHONY : testing_driver.o
 
@@ -243,6 +291,12 @@ help:
 	@echo "... Network.o"
 	@echo "... Network.i"
 	@echo "... Network.s"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
+	@echo "... list_unit_tests.o"
+	@echo "... list_unit_tests.i"
+	@echo "... list_unit_tests.s"
 	@echo "... testing_driver.o"
 	@echo "... testing_driver.i"
 	@echo "... testing_driver.s"

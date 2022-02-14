@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Deep_Learning_Library.dir/Connection.cpp.o"
   "CMakeFiles/Deep_Learning_Library.dir/Layer.cpp.o"
   "CMakeFiles/Deep_Learning_Library.dir/Network.cpp.o"
+  "CMakeFiles/Deep_Learning_Library.dir/list.cpp.o"
+  "CMakeFiles/Deep_Learning_Library.dir/list_unit_tests.cpp.o"
   "CMakeFiles/Deep_Learning_Library.dir/testing_driver.cpp.o"
   "Deep_Learning_Library"
   "Deep_Learning_Library.pdb"

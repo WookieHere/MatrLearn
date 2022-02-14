@@ -95,10 +95,19 @@
 		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/Network.h">
 			<Option target="Deep_Learning_Library"/>
 		</Unit>
+		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list.cpp">
+			<Option target="Deep_Learning_Library"/>
+		</Unit>
+		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/list_unit_tests.cpp">
+			<Option target="Deep_Learning_Library"/>
+		</Unit>
 		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/math_funcs.h">
 			<Option target="Deep_Learning_Library"/>
 		</Unit>
 		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/testing_driver.cpp">
+			<Option target="Deep_Learning_Library"/>
+		</Unit>
+		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/unit_tests.h">
 			<Option target="Deep_Learning_Library"/>
 		</Unit>
 		<Unit filename="/Volumes/CRUCIALX8/C_Projects/Deep_Learning_Library/CMakeLists.txt">

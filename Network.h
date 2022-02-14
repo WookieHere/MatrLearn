@@ -16,6 +16,7 @@ private:
 public:
     Network();
     Network(Layer*);
+    void addLayer(int index = 0);
     void compile();
     void run();
     void setInput(void* input);
